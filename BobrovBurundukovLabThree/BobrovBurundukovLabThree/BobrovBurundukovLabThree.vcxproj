@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{21ad6449-8545-404e-9da8-3801f36a8943}</ProjectGuid>
-    <RootNamespace>Лабораторная3БобровБурундуков</RootNamespace>
+    <ProjectGuid>{abfee195-8970-40c4-b259-dfe5794ace97}</ProjectGuid>
+    <RootNamespace>BobrovBurundukovLabThree</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Лабораторная 3 БобровБурундуков.cpp" />
+    <ClCompile Include="BobrovBurundukovLabThree.cpp" />
+    <ClCompile Include="ContactBook.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ContactBook.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
